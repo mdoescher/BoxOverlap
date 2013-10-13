@@ -34,7 +34,7 @@ console.log(result);
 Determines which boxes from a list overlap.
 
 * `boxes` is an array of box coordinates
-* the box coordinates are each composed of an array two points representing opposite corners of the box
+* the box coordinates are each composed of an array of two points representing opposite corners of the box
 * the points are arrays of length 2 of numbers representing x and y coordinates.
 
 **Returns** An array of length 2 arrays which indicate the index into the box array of every pair of overlapping boxes.
