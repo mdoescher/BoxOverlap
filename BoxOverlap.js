@@ -8,10 +8,8 @@ module.exports = function(boxes) {
 	// if (!isInputOk(boxes)) {return null;}
 	var events = generateEvents(boxes);
 	events.sort(compare);
-console.log(events);
 	overlaps = new Array();
 	var overlaps = generateOvelapList(boxes, events, overlaps);
-//console.log(overlaps);
 	return overlaps;
 }
 
@@ -67,7 +65,6 @@ function generateOvelapList(boxes, events, overlaps) {
 	for (i = 0; i < events.length; i++) {
 		if (events[i].type == "add") {
 			overlaps = findOverlap(Q, events[i].index, overlaps, boxes);
-			console.log(overlaps);
 			Q.push(events[i].index);
 		} 
 		if (events[i].type == "remove") {

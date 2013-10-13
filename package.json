@@ -1,6 +1,6 @@
 {
-  "name": "BoxOverlap",
-  "version": "0.0.0",
+  "name": "boxoverlap",
+  "version": "0.0.3",
   "description": "Reports pairs of overlapping boxes",
   "main": "BoxOverlap.js",
   "directories": {
