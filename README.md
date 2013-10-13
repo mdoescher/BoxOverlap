@@ -30,7 +30,7 @@ console.log(result);
 
 ## API
 
-### `require("boxOverlap")(boxes)`
+### `require("boxoverlap")(boxes)`
 Determines which boxes from a list overlap.
 
 * `boxes` is an array of box coordinates
