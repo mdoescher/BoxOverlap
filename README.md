@@ -5,12 +5,12 @@ Takes an array of boxes and reports overlapping boxes.  The boxes are defined as
 ## Install
 Using npm:
 
-		npm install BoxOverlap
+		npm install boxoverlap
 
 ## Example
 
 ```javascript
-var boxOverlap = require("BoxOverlap.js")
+var boxOverlap = require("boxoverlap")
 
 var b0 = [[0, 0], [1,1]];
 var b1 = [[0.5, 0.5], [0.75,0.75]];
