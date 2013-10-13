@@ -1,0 +1,25 @@
+{
+  "name": "BoxOverlap",
+  "version": "0.0.0",
+  "description": "Reports pairs of overlapping boxes",
+  "main": "BoxOverlap.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdoescher/BoxOverlap.git"
+  },
+  "keywords": [
+    "Box",
+    "Overlap"
+  ],
+  "author": "Michael Doescher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdoescher/BoxOverlap/issues"
+  }
+}
